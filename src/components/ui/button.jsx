@@ -1,0 +1,1 @@
+export function Button({children,onClick,disabled,className=''}){return <button className={`btn ${className}`} onClick={onClick} disabled={disabled}>{children}</button>}

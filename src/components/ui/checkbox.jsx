@@ -1,0 +1,1 @@
+export function Checkbox({checked,onChange}){return <input className='checkbox' type='checkbox' checked={checked} onChange={e=>onChange?.(e.target.checked)} />}
